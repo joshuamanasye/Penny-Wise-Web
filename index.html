@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penny Wise - Login/Sign Up</title>
+</head>
+<body>
+    <h1>Welcome to Penny Wise</h1>
+    
+    <div id="login-section">
+        <h2>Login</h2>
+        <input type="email" id="login-email" placeholder="Email"><br>
+        <input type="password" id="login-password" placeholder="Password"><br>
+        <button id="login-btn">Login</button>
+    </div>
+
+    <div id="signup-section">
+        <h2>Sign Up</h2>
+        <input type="text" id="signup-username" placeholder="Username"><br>
+        <input type="text" id="signup-usernick" placeholder="Nickname"><br>
+        <input type="email" id="signup-email" placeholder="Email"><br>
+        <input type="password" id="signup-password" placeholder="Password"><br>
+        <button id="signup-btn">Sign Up</button>
+    </div>
+    
+    <div id="home-section" style="display: none;">
+        <h2>Home</h2>
+        <p>Welcome, <span id="home-username"></span>!</p>
+        <p>Your current balance: <span id="current-balance"></span></p>
+        <h3>Your Transactions</h3>
+        <ul id="transaction-list"></ul>
+    </div>
+
+    <script type="module" src="../src/index.js"></script>
+</body>
+</html>

@@ -1,25 +1,25 @@
 {
     "users": {
-      "userId001": {
+      "u9xlmpCBWqaiLc5TaggS7fbyXyF3": {
         "username": "joman",
         "userNick": "Joman",
-        "userEmail": "joman@example.com"
+        "userEmail": "joman@gmail.com"
       },
-      "userId002": {
+      "lVEOqQPhkDPB0HUPyg6DaJSJMXE2": {
         "username": "alice",
-        "userNick": "Ali",
-        "userEmail": "alice@example.com"
+        "userNick": "Alice",
+        "userEmail": "alice@gmail.com"
       }
     },
     "categories": {
-      "userId001": {
+      "u9xlmpCBWqaiLc5TaggS7fbyXyF3": {
         "1": { "categoryName": "Food", "type": "Expense" },
         "2": { "categoryName": "Salary", "type": "Income" },
         "3": { "categoryName": "Transportation", "type": "Expense" },
         "4": { "categoryName": "Entertainment", "type": "Expense" },
         "5": { "categoryName": "Freelance", "type": "Income" }
       },
-      "userId002": {
+      "lVEOqQPhkDPB0HUPyg6DaJSJMXE2": {
         "1": { "categoryName": "Shopping", "type": "Expense" },
         "2": { "categoryName": "Freelance", "type": "Income" },
         "3": { "categoryName": "Bills", "type": "Expense" },
@@ -28,7 +28,7 @@
       }
     },
     "transactions": {
-      "userId001": {
+      "u9xlmpCBWqaiLc5TaggS7fbyXyF3": {
         "transactionId001": {
           "categoryName": "Food",
           "amount": 15,
@@ -110,7 +110,7 @@
           "dateTime": "2024-11-07T19:00:00"
         }
       },
-      "userId002": {
+      "lVEOqQPhkDPB0HUPyg6DaJSJMXE2": {
         "transactionId001": {
           "categoryName": "Shopping",
           "amount": 150,
