@@ -1,0 +1,197 @@
+{
+    "users": {
+      "userId001": {
+        "username": "joman",
+        "userNick": "Joman",
+        "userEmail": "joman@example.com"
+      },
+      "userId002": {
+        "username": "alice",
+        "userNick": "Ali",
+        "userEmail": "alice@example.com"
+      }
+    },
+    "categories": {
+      "userId001": {
+        "1": { "categoryName": "Food", "type": "Expense" },
+        "2": { "categoryName": "Salary", "type": "Income" },
+        "3": { "categoryName": "Transportation", "type": "Expense" },
+        "4": { "categoryName": "Entertainment", "type": "Expense" },
+        "5": { "categoryName": "Freelance", "type": "Income" }
+      },
+      "userId002": {
+        "1": { "categoryName": "Shopping", "type": "Expense" },
+        "2": { "categoryName": "Freelance", "type": "Income" },
+        "3": { "categoryName": "Bills", "type": "Expense" },
+        "4": { "categoryName": "Investment", "type": "Income" },
+        "5": { "categoryName": "Groceries", "type": "Expense" }
+      }
+    },
+    "transactions": {
+      "userId001": {
+        "transactionId001": {
+          "categoryName": "Food",
+          "amount": 15,
+          "name": "Breakfast",
+          "description": "Coffee and bagel",
+          "type": "Expense",
+          "dateTime": "2024-11-01T08:30:00"
+        },
+        "transactionId002": {
+          "categoryName": "Transportation",
+          "amount": 20,
+          "name": "Taxi",
+          "description": "Ride to office",
+          "type": "Expense",
+          "dateTime": "2024-11-01T09:00:00"
+        },
+        "transactionId003": {
+          "categoryName": "Salary",
+          "amount": 3000,
+          "name": "Monthly Salary",
+          "description": "November paycheck",
+          "type": "Income",
+          "dateTime": "2024-11-01T12:00:00"
+        },
+        "transactionId004": {
+          "categoryName": "Food",
+          "amount": 10,
+          "name": "Lunch",
+          "description": "Fast food",
+          "type": "Expense",
+          "dateTime": "2024-11-02T13:00:00"
+        },
+        "transactionId005": {
+          "categoryName": "Entertainment",
+          "amount": 50,
+          "name": "Movie Night",
+          "description": "Watched a new release",
+          "type": "Expense",
+          "dateTime": "2024-11-02T20:00:00"
+        },
+        "transactionId006": {
+          "categoryName": "Freelance",
+          "amount": 500,
+          "name": "Web Design Payment",
+          "description": "Project completion payment",
+          "type": "Income",
+          "dateTime": "2024-11-03T15:00:00"
+        },
+        "transactionId007": {
+          "categoryName": "Transportation",
+          "amount": 15,
+          "name": "Bus fare",
+          "description": "Weekly bus pass",
+          "type": "Expense",
+          "dateTime": "2024-11-04T07:45:00"
+        },
+        "transactionId008": {
+          "categoryName": "Food",
+          "amount": 8,
+          "name": "Coffee",
+          "description": "Morning coffee run",
+          "type": "Expense",
+          "dateTime": "2024-11-05T08:00:00"
+        },
+        "transactionId009": {
+          "categoryName": "Entertainment",
+          "amount": 30,
+          "name": "Game Purchase",
+          "description": "Bought a new game on sale",
+          "type": "Expense",
+          "dateTime": "2024-11-06T18:30:00"
+        },
+        "transactionId010": {
+          "categoryName": "Food",
+          "amount": 25,
+          "name": "Dinner",
+          "description": "Family dinner at a restaurant",
+          "type": "Expense",
+          "dateTime": "2024-11-07T19:00:00"
+        }
+      },
+      "userId002": {
+        "transactionId001": {
+          "categoryName": "Shopping",
+          "amount": 150,
+          "name": "Clothing Purchase",
+          "description": "Bought winter clothes",
+          "type": "Expense",
+          "dateTime": "2024-11-01T14:00:00"
+        },
+        "transactionId002": {
+          "categoryName": "Freelance",
+          "amount": 700,
+          "name": "Client Payment",
+          "description": "Payment for freelance work",
+          "type": "Income",
+          "dateTime": "2024-11-02T11:00:00"
+        },
+        "transactionId003": {
+          "categoryName": "Bills",
+          "amount": 100,
+          "name": "Electricity Bill",
+          "description": "November power bill",
+          "type": "Expense",
+          "dateTime": "2024-11-03T10:00:00"
+        },
+        "transactionId004": {
+          "categoryName": "Investment",
+          "amount": 200,
+          "name": "Stocks Purchase",
+          "description": "Invested in tech stocks",
+          "type": "Income",
+          "dateTime": "2024-11-04T12:00:00"
+        },
+        "transactionId005": {
+          "categoryName": "Groceries",
+          "amount": 80,
+          "name": "Grocery Shopping",
+          "description": "Weekly grocery run",
+          "type": "Expense",
+          "dateTime": "2024-11-05T17:00:00"
+        },
+        "transactionId006": {
+          "categoryName": "Shopping",
+          "amount": 60,
+          "name": "Electronics Purchase",
+          "description": "Bought a new keyboard",
+          "type": "Expense",
+          "dateTime": "2024-11-06T13:30:00"
+        },
+        "transactionId007": {
+          "categoryName": "Freelance",
+          "amount": 300,
+          "name": "Consulting Payment",
+          "description": "Client project",
+          "type": "Income",
+          "dateTime": "2024-11-07T16:00:00"
+        },
+        "transactionId008": {
+          "categoryName": "Bills",
+          "amount": 50,
+          "name": "Internet Bill",
+          "description": "Monthly internet subscription",
+          "type": "Expense",
+          "dateTime": "2024-11-08T09:00:00"
+        },
+        "transactionId009": {
+          "categoryName": "Groceries",
+          "amount": 90,
+          "name": "Supermarket",
+          "description": "Stocked up on household supplies",
+          "type": "Expense",
+          "dateTime": "2024-11-09T18:00:00"
+        },
+        "transactionId010": {
+          "categoryName": "Investment",
+          "amount": 400,
+          "name": "Mutual Funds",
+          "description": "Invested in mutual funds",
+          "type": "Income",
+          "dateTime": "2024-11-10T12:00:00"
+        }
+      }
+    }
+  }
+  
