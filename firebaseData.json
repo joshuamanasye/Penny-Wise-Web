@@ -5,7 +5,7 @@
         "userNick": "Joman",
         "userEmail": "joman@gmail.com"
       },
-      "lVEOqQPhkDPB0HUPyg6DaJSJMXE2": {
+      "X8bo45PtLxXTxbaeQ2fZD12Wu3w2": {
         "username": "alice",
         "userNick": "Alice",
         "userEmail": "alice@gmail.com"
@@ -19,7 +19,7 @@
         "4": { "categoryName": "Entertainment", "type": "Expense" },
         "5": { "categoryName": "Freelance", "type": "Income" }
       },
-      "lVEOqQPhkDPB0HUPyg6DaJSJMXE2": {
+      "X8bo45PtLxXTxbaeQ2fZD12Wu3w2": {
         "1": { "categoryName": "Shopping", "type": "Expense" },
         "2": { "categoryName": "Freelance", "type": "Income" },
         "3": { "categoryName": "Bills", "type": "Expense" },
@@ -110,7 +110,7 @@
           "dateTime": "2024-11-07T19:00:00"
         }
       },
-      "lVEOqQPhkDPB0HUPyg6DaJSJMXE2": {
+      "X8bo45PtLxXTxbaeQ2fZD12Wu3w2": {
         "transactionId001": {
           "categoryName": "Shopping",
           "amount": 150,

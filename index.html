@@ -3,33 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Penny Wise - Login/Sign Up</title>
+    <title>Penny Wise - Home</title>
+    <link rel="stylesheet" href="../styles/style.css">
 </head>
 <body>
     <h1>Welcome to Penny Wise</h1>
     
-    <div id="login-section">
-        <h2>Login</h2>
-        <input type="email" id="login-email" placeholder="Email"><br>
-        <input type="password" id="login-password" placeholder="Password"><br>
-        <button id="login-btn">Login</button>
-    </div>
-
-    <div id="signup-section">
-        <h2>Sign Up</h2>
-        <input type="text" id="signup-username" placeholder="Username"><br>
-        <input type="text" id="signup-usernick" placeholder="Nickname"><br>
-        <input type="email" id="signup-email" placeholder="Email"><br>
-        <input type="password" id="signup-password" placeholder="Password"><br>
-        <button id="signup-btn">Sign Up</button>
-    </div>
-    
-    <div id="home-section" style="display: none;">
+    <div id="home-section">
         <h2>Home</h2>
         <p>Welcome, <span id="home-username"></span>!</p>
         <p>Your current balance: <span id="current-balance"></span></p>
         <h3>Your Transactions</h3>
         <ul id="transaction-list"></ul>
+        <br><br>
+        <a href="#" id="add-transaction-link">Add Transaction</a>
+        <button id="logout-btn">Logout</button>
+    </div>
+
+    <div id="add-transaction-section" style="display: none;">
+        <h2>Add Transaction</h2>
+        <form id="add-transaction-form">
+            <label for="transaction-amount">Amount:</label>
+            <input type="number" id="transaction-amount" required><br>
+            
+            <label>Type:</label>
+            <input type="radio" name="transaction-type" value="Income" required> Income
+            <input type="radio" name="transaction-type" value="Expense" required> Expense<br>
+            
+            <label for="transaction-category">Category:</label>
+            <select id="transaction-category" required></select><br>
+            
+            <label for="transaction-name">Name:</label>
+            <input type="text" id="transaction-name" placeholder="e.g., Food"><br>
+            
+            <label for="transaction-description">Description:</label>
+            <input type="text" id="transaction-description" placeholder="Optional"><br>
+            
+            <button type="submit">Add Transaction</button>
+            <button type="button" id="cancel-add-transaction-btn">Cancel</button>
+        </form>
     </div>
 
     <script type="module" src="../src/index.js"></script>
